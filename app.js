@@ -1,12 +1,16 @@
-function onLoad(){
-    
-    let who = ['the dog','my granma','his turtle','my bird'];
-    let what = ['eat','pissed','crushed','broked'];
-    let when = ['before the class','right in time','when I finished','during my lunch','while I was praying'];
-    var resultado;
-    
-    return resultado;
+function onLoad() {
+
+    let random1 = Math.random();
+    let random2 = Math.random();
+    let random3 = Math.random();
+
+    let who = ['El gato', 'Mi hermana', 'Mi amigo Ramón', 'Mi novia'];
+    let what = ['me ha tirado', 'me ha quemado', 'me ha robado', 'me ha perdido'];
+    let when = ['ayer por la noche', 'hace un mes', 'justo cuando desperté', 'mientras estaba en la ducha', 'mientras alimentaba al pájaro'];
+    let excusa = (who[Math.floor(random1 * 4)] + ' ' + what[Math.floor(random2 * 4)] + ' mis ejercicios ' + when[Math.floor(random3 * 5)] + '.');
+
+    return excusa;
 }
 
-
-console.log
+console.log('hola!!!');
+document.querySelector('#excusa').innerHTML = onLoad();
