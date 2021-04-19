@@ -4,21 +4,19 @@ body {
   font-family: 'Indie Flower', cursive;
 }
 .box{
-  width: 90%;
-  margin: 20px auto;
+  margin: 3rem;
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 30px;
-  padding: 30px;
+    border-radius: 1.5rem;
+  padding: 2rem;
+
 }
 .excusa {
-  margin: 0;
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
   color: #000041;
 }
 .refresh{
-    margin: 0 auto;
     display:flex;
     justify-content: center;
 }
