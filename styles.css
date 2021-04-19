@@ -1,5 +1,7 @@
 body {
-  background-color: #000041;
+  background-image: url("https://st4.depositphotos.com/1831081/23991/v/600/depositphotos_239913264-stock-video-sad-upside-smiley-hand-drawn.jpg");
+  
+  background-size:contain;
   font-family: "Noto Sans", sans-serif;
 }
 div {
