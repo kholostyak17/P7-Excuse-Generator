@@ -10,5 +10,5 @@ function onLoad() {
     return excusa;
 }
 
-console.log("hola!!!");
+console.log("hola!!! (funciona script JS)");
 document.querySelector('#excusa').innerHTML = onLoad();
